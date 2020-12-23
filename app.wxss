@@ -1,0 +1,8 @@
+view,text,image,navigator{
+  /* 盒子内减模式 */
+  box-sizing: border-box;
+}
+/* 解决浏览器兼容性 */
+image{
+  display: block;
+}

@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/horizontal/horizontal",
+    "pages/video/video",
+    "pages/search/search",
+    "pages/mine/mine",
+    "pages/categroyDetail/categroyDetail",
+    "pages/albumDetail/albumDetail",
+    "pages/downloads/downloads"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTitleText": "懂你找图",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#eee",
+    "selectedColor":"#FFC0CB",
+    "backgroundColor":"#FFC0CB",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/icon/_home.png",
+      "selectedIconPath": "/icon/home.png"
+    },{
+      "pagePath": "pages/horizontal/horizontal",
+      "text": "横屏",
+      "iconPath": "/icon/_img.png",
+      "selectedIconPath": "/icon/img.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "精美视频",
+      "iconPath": "/icon/_videocamera.png",
+      "selectedIconPath": "/icon/videocamera.png"
+    },{
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "/icon/_search.png",
+      "selectedIconPath": "/icon/search.png"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "/icon/_my.png",
+      "selectedIconPath": "/icon/my.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
